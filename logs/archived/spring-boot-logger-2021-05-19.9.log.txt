@@ -1,0 +1,618 @@
+20:42:15.365 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.ResourceProperties]
+20:42:15.372 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'addMappings' of type [boolean]
+20:42:15.372 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'cache' of type [org.springframework.boot.autoconfigure.web.ResourceProperties$Cache]
+20:42:15.372 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'chain' of type [org.springframework.boot.autoconfigure.web.ResourceProperties$Chain]
+20:42:15.373 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.373 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'staticLocations' of type [[Ljava.lang.String;]
+20:42:15.374 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+20:42:15.375 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+20:42:15.375 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.375 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.375 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties' to allow for resolving potential circular references
+20:42:15.375 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.WebProperties]
+20:42:15.376 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.WebProperties]
+20:42:15.377 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.377 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'locale' of type [java.util.Locale]
+20:42:15.377 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'localeResolver' of type [org.springframework.boot.autoconfigure.web.WebProperties$LocaleResolver]
+20:42:15.377 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'resources' of type [org.springframework.boot.autoconfigure.web.WebProperties$Resources]
+20:42:15.377 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+20:42:15.378 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.378 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@38f116f6'
+20:42:15.378 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+20:42:15.378 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.378 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration' to allow for resolving potential circular references
+20:42:15.378 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration]
+20:42:15.380 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration]
+20:42:15.380 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.380 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+20:42:15.380 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'conventionErrorViewResolver'
+20:42:15.380 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'conventionErrorViewResolver'
+20:42:15.380 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration'
+20:42:15.380 [main] TRACE o.s.c.i.s.SpringFactoriesLoader - Loaded [org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider] names: [org.springframework.boot.autoconfigure.freemarker.FreeMarkerTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.mustache.MustacheTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.web.servlet.JspTemplateAvailabilityProvider]
+20:42:15.381 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'conventionErrorViewResolver' to allow for resolving potential circular references
+20:42:15.381 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver]
+20:42:15.382 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver]
+20:42:15.382 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.382 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'order' of type [int]
+20:42:15.383 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'conventionErrorViewResolver'
+20:42:15.383 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.383 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+20:42:15.383 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+20:42:15.383 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'errorAttributes'
+20:42:15.383 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'errorAttributes'
+20:42:15.383 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+20:42:15.385 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'errorAttributes' to allow for resolving potential circular references
+20:42:15.385 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.web.servlet.error.DefaultErrorAttributes]
+20:42:15.386 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.web.servlet.error.DefaultErrorAttributes]
+20:42:15.386 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.386 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'order' of type [int]
+20:42:15.388 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'errorAttributes'
+20:42:15.388 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'basicErrorController'
+20:42:15.388 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'basicErrorController'
+20:42:15.388 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration'
+20:42:15.388 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'errorAttributes'
+20:42:15.388 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'basicErrorController' via factory method to bean named 'errorAttributes'
+20:42:15.389 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'conventionErrorViewResolver'
+20:42:15.389 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'conventionErrorViewResolver'
+20:42:15.390 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'basicErrorController' to allow for resolving potential circular references
+20:42:15.390 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController]
+20:42:15.392 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController]
+20:42:15.392 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.392 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'errorPath' of type [java.lang.String]
+20:42:15.393 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'basicErrorController'
+20:42:15.393 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'errorPageCustomizer'
+20:42:15.393 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'preserveErrorControllerTargetClassPostProcessor'
+20:42:15.393 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:42:15.393 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:42:15.394 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+20:42:15.394 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+20:42:15.394 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.394 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+20:42:15.394 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+20:42:15.395 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.395 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@40258c2f'
+20:42:15.398 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'resourceHandlerRegistrationCustomizer'
+20:42:15.398 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'resourceHandlerRegistrationCustomizer'
+20:42:15.398 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration'
+20:42:15.398 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration'
+20:42:15.398 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration' to allow for resolving potential circular references
+20:42:15.398 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration]
+20:42:15.399 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration]
+20:42:15.399 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.399 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainCustomizerConfiguration'
+20:42:15.399 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+20:42:15.399 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.399 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerRegistrationCustomizer' via factory method to bean named 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties'
+20:42:15.399 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerRegistrationCustomizer' via factory method to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.400 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'resourceHandlerRegistrationCustomizer' to allow for resolving potential circular references
+20:42:15.400 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainResourceHandlerRegistrationCustomizer]
+20:42:15.401 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$ResourceChainResourceHandlerRegistrationCustomizer]
+20:42:15.401 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.402 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'resourceHandlerRegistrationCustomizer'
+20:42:15.403 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration]
+20:42:15.405 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration]
+20:42:15.405 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+20:42:15.405 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.405 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'configurers' of type [java.util.List]
+20:42:15.405 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+20:42:15.405 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+20:42:15.409 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' to allow for resolving potential circular references
+20:42:15.410 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+20:42:15.410 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+20:42:15.410 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.410 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+20:42:15.410 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.web-org.springframework.boot.autoconfigure.web.WebProperties'
+20:42:15.410 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties'
+20:42:15.410 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' via constructor to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@40258c2f'
+20:42:15.410 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'resourceHandlerRegistrationCustomizer'
+20:42:15.411 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter' to allow for resolving potential circular references
+20:42:15.411 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter]
+20:42:15.412 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter]
+20:42:15.413 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.413 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'messageCodesResolver' of type [org.springframework.validation.MessageCodesResolver]
+20:42:15.414 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+20:42:15.414 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'swaggerWebMvcConfigurer'
+20:42:15.414 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'swaggerWebMvcConfigurer'
+20:42:15.414 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.webmvc.ui.SwaggerConfig'
+20:42:15.414 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springdoc.webmvc.ui.SwaggerConfig'
+20:42:15.414 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springdoc.webmvc.ui.SwaggerConfig' to allow for resolving potential circular references
+20:42:15.414 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springdoc.webmvc.ui.SwaggerConfig]
+20:42:15.415 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springdoc.webmvc.ui.SwaggerConfig]
+20:42:15.415 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.415 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springdoc.webmvc.ui.SwaggerConfig'
+20:42:15.416 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SwaggerUiConfigParameters'
+20:42:15.416 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springdoc.core.SwaggerUiConfigParameters'
+20:42:15.417 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SwaggerUiConfigProperties'
+20:42:15.417 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springdoc.core.SwaggerUiConfigProperties'
+20:42:15.418 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springdoc.core.SwaggerUiConfigProperties' to allow for resolving potential circular references
+20:42:15.418 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springdoc.core.SwaggerUiConfigProperties]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springdoc.core.SwaggerUiConfigProperties]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'configUrl' of type [java.lang.String]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'csrf' of type [org.springdoc.core.SwaggerUiConfigProperties$Csrf]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'csrfEnabled' of type [boolean]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deepLinking' of type [java.lang.Boolean]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultModelExpandDepth' of type [java.lang.Integer]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultModelRendering' of type [java.lang.String]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultModelsExpandDepth' of type [java.lang.Integer]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'disableSwaggerDefaultUrl' of type [boolean]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'displayOperationId' of type [java.lang.Boolean]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'displayQueryParams' of type [boolean]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'displayQueryParamsWithoutOauth2' of type [boolean]
+20:42:15.419 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'displayRequestDuration' of type [java.lang.Boolean]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'docExpansion' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'enabled' of type [boolean]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'filter' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'groupsOrder' of type [org.springdoc.core.AbstractSwaggerUiConfigProperties$Direction]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'layout' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'maxDisplayedTags' of type [java.lang.Integer]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'oauth2RedirectUrl' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'operationsSorter' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'path' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'persistAuthorization' of type [java.lang.Boolean]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'showCommonExtensions' of type [java.lang.Boolean]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'showExtensions' of type [java.lang.Boolean]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'supportedSubmitMethods' of type [java.util.List]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'syntaxHighlight' of type [org.springdoc.core.SwaggerUiConfigProperties$SyntaxHighlight]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'tagsSorter' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'url' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urls' of type [java.util.Set]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urlsPrimaryName' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'validatorUrl' of type [java.lang.String]
+20:42:15.420 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+20:42:15.423 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springdoc.core.SwaggerUiConfigProperties'
+20:42:15.423 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springdoc.core.SwaggerUiConfigParameters' via constructor to bean named 'org.springdoc.core.SwaggerUiConfigProperties'
+20:42:15.432 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springdoc.core.SwaggerUiConfigParameters' to allow for resolving potential circular references
+20:42:15.432 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springdoc.core.SwaggerUiConfigParameters]
+20:42:15.435 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springdoc.core.SwaggerUiConfigParameters]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'configParameters' of type [java.util.Map]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'configUrl' of type [java.lang.String]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deepLinking' of type [java.lang.Boolean]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultModelExpandDepth' of type [java.lang.Integer]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultModelRendering' of type [java.lang.String]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultModelsExpandDepth' of type [java.lang.Integer]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'displayOperationId' of type [java.lang.Boolean]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'displayRequestDuration' of type [java.lang.Boolean]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'docExpansion' of type [java.lang.String]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'filter' of type [java.lang.String]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'groupsOrder' of type [org.springdoc.core.AbstractSwaggerUiConfigProperties$Direction]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'layout' of type [java.lang.String]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'maxDisplayedTags' of type [java.lang.Integer]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'oauth2RedirectUrl' of type [java.lang.String]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'operationsSorter' of type [java.lang.String]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'path' of type [java.lang.String]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'persistAuthorization' of type [java.lang.Boolean]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'showCommonExtensions' of type [java.lang.Boolean]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'showExtensions' of type [java.lang.Boolean]
+20:42:15.436 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'supportedSubmitMethods' of type [java.util.List]
+20:42:15.437 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'syntaxHighlight' of type [org.springdoc.core.SwaggerUiConfigProperties$SyntaxHighlight]
+20:42:15.437 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'tagsSorter' of type [java.lang.String]
+20:42:15.437 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'uiRootPath' of type [java.lang.String]
+20:42:15.437 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'url' of type [java.lang.String]
+20:42:15.437 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urls' of type [java.util.Set]
+20:42:15.437 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urlsPrimaryName' of type [java.lang.String]
+20:42:15.437 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'validatorUrl' of type [java.lang.String]
+20:42:15.438 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springdoc.core.SwaggerUiConfigParameters'
+20:42:15.438 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'indexPageTransformer'
+20:42:15.438 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'indexPageTransformer'
+20:42:15.438 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springdoc.webmvc.ui.SwaggerConfig'
+20:42:15.439 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springdoc.core.SwaggerUiConfigProperties'
+20:42:15.439 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SwaggerUiOAuthProperties'
+20:42:15.440 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springdoc.core.SwaggerUiOAuthProperties'
+20:42:15.440 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springdoc.core.SwaggerUiOAuthProperties' to allow for resolving potential circular references
+20:42:15.440 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springdoc.core.SwaggerUiOAuthProperties]
+20:42:15.441 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springdoc.core.SwaggerUiOAuthProperties]
+20:42:15.441 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'additionalQueryStringParams' of type [java.util.Map]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'appName' of type [java.lang.String]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'clientId' of type [java.lang.String]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'clientSecret' of type [java.lang.String]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'configParameters' of type [java.util.Map]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'realm' of type [java.lang.String]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'scopeSeparator' of type [java.lang.String]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'scopes' of type [java.util.List]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'useBasicAuthenticationWithAccessCodeGrant' of type [java.lang.String]
+20:42:15.442 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'usePkceWithAuthorizationCodeGrant' of type [java.lang.Boolean]
+20:42:15.442 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+20:42:15.444 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springdoc.core.SwaggerUiOAuthProperties'
+20:42:15.444 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jacksonObjectMapper'
+20:42:15.444 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'jacksonObjectMapper'
+20:42:15.444 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+20:42:15.444 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+20:42:15.444 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' to allow for resolving potential circular references
+20:42:15.444 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration]
+20:42:15.446 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration]
+20:42:15.446 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.446 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration'
+20:42:15.447 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'jacksonObjectMapperBuilder'
+20:42:15.447 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+20:42:15.447 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+20:42:15.447 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' to allow for resolving potential circular references
+20:42:15.447 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration]
+20:42:15.448 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration]
+20:42:15.448 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.448 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration'
+20:42:15.449 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'standardJacksonObjectMapperBuilderCustomizer'
+20:42:15.449 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'standardJacksonObjectMapperBuilderCustomizer'
+20:42:15.449 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+20:42:15.449 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+20:42:15.449 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' to allow for resolving potential circular references
+20:42:15.450 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration]
+20:42:15.451 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration]
+20:42:15.451 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.451 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration'
+20:42:15.452 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+20:42:15.452 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+20:42:15.452 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' to allow for resolving potential circular references
+20:42:15.452 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.jackson.JacksonProperties]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.jackson.JacksonProperties]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'dateFormat' of type [java.lang.String]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultPropertyInclusion' of type [com.fasterxml.jackson.annotation.JsonInclude$Include]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deserialization' of type [java.util.Map]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'generator' of type [java.util.Map]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'locale' of type [java.util.Locale]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'mapper' of type [java.util.Map]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'parser' of type [java.util.Map]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'propertyNamingStrategy' of type [java.lang.String]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serialization' of type [java.util.Map]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'timeZone' of type [java.util.TimeZone]
+20:42:15.454 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'visibility' of type [java.util.Map]
+20:42:15.455 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.context.properties.BoundConfigurationProperties'
+20:42:15.456 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+20:42:15.456 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@38f116f6'
+20:42:15.456 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'standardJacksonObjectMapperBuilderCustomizer' via factory method to bean named 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties'
+20:42:15.456 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'standardJacksonObjectMapperBuilderCustomizer' to allow for resolving potential circular references
+20:42:15.456 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer]
+20:42:15.458 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer]
+20:42:15.458 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.458 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'order' of type [int]
+20:42:15.460 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'standardJacksonObjectMapperBuilderCustomizer'
+20:42:15.461 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@38f116f6'
+20:42:15.461 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapperBuilder' via factory method to bean named 'standardJacksonObjectMapperBuilderCustomizer'
+20:42:15.463 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'parameterNamesModule'
+20:42:15.463 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'parameterNamesModule'
+20:42:15.463 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+20:42:15.463 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+20:42:15.463 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' to allow for resolving potential circular references
+20:42:15.463 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration]
+20:42:15.465 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration]
+20:42:15.465 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.466 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration'
+20:42:15.468 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'parameterNamesModule' to allow for resolving potential circular references
+20:42:15.468 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+20:42:15.474 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [com.fasterxml.jackson.module.paramnames.ParameterNamesModule]
+20:42:15.474 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'abstractTypes' of type [com.fasterxml.jackson.databind.module.SimpleAbstractTypeResolver]
+20:42:15.474 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.474 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'dependencies' of type [java.lang.Iterable]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deserializerModifier' of type [com.fasterxml.jackson.databind.deser.BeanDeserializerModifier]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deserializers' of type [com.fasterxml.jackson.databind.module.SimpleDeserializers]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'keyDeserializers' of type [com.fasterxml.jackson.databind.module.SimpleKeyDeserializers]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'keySerializers' of type [com.fasterxml.jackson.databind.module.SimpleSerializers]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'moduleName' of type [java.lang.String]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serializerModifier' of type [com.fasterxml.jackson.databind.ser.BeanSerializerModifier]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serializers' of type [com.fasterxml.jackson.databind.module.SimpleSerializers]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'typeId' of type [java.lang.Object]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'upModule' of type [com.fasterxml.jackson.databind.Module$SetupContext]
+20:42:15.475 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'valueInstantiators' of type [com.fasterxml.jackson.databind.module.SimpleValueInstantiators]
+20:42:15.476 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'parameterNamesModule'
+20:42:15.476 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jsonComponentModule'
+20:42:15.476 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'jsonComponentModule'
+20:42:15.476 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+20:42:15.476 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+20:42:15.476 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' to allow for resolving potential circular references
+20:42:15.476 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration]
+20:42:15.477 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration]
+20:42:15.477 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.477 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration'
+20:42:15.478 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'jsonComponentModule' to allow for resolving potential circular references
+20:42:15.478 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.jackson.JsonComponentModule]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.jackson.JsonComponentModule]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'abstractTypes' of type [com.fasterxml.jackson.databind.module.SimpleAbstractTypeResolver]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'dependencies' of type [java.lang.Iterable]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deserializerModifier' of type [com.fasterxml.jackson.databind.deser.BeanDeserializerModifier]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deserializers' of type [com.fasterxml.jackson.databind.module.SimpleDeserializers]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'keyDeserializers' of type [com.fasterxml.jackson.databind.module.SimpleKeyDeserializers]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'keySerializers' of type [com.fasterxml.jackson.databind.module.SimpleSerializers]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'moduleName' of type [java.lang.String]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serializerModifier' of type [com.fasterxml.jackson.databind.ser.BeanSerializerModifier]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serializers' of type [com.fasterxml.jackson.databind.module.SimpleSerializers]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'typeId' of type [java.lang.Object]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'upModule' of type [com.fasterxml.jackson.databind.Module$SetupContext]
+20:42:15.479 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'valueInstantiators' of type [com.fasterxml.jackson.databind.module.SimpleValueInstantiators]
+20:42:15.482 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'jsonComponentModule'
+20:42:15.485 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jsonComponentModule'
+20:42:15.487 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder]
+20:42:15.489 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder]
+20:42:15.489 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.489 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jacksonObjectMapperBuilder'
+20:42:15.490 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jacksonObjectMapper' via factory method to bean named 'jacksonObjectMapperBuilder'
+20:42:15.500 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'jacksonObjectMapper' to allow for resolving potential circular references
+20:42:15.500 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [com.fasterxml.jackson.databind.ObjectMapper]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [com.fasterxml.jackson.databind.ObjectMapper]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'annotationIntrospector' of type [com.fasterxml.jackson.databind.AnnotationIntrospector]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'base64Variant' of type [com.fasterxml.jackson.core.Base64Variant]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'config' of type [com.fasterxml.jackson.databind.SerializationConfig]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'dateFormat' of type [java.text.DateFormat]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultLeniency' of type [java.lang.Boolean]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultMergeable' of type [java.lang.Boolean]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultPrettyPrinter' of type [com.fasterxml.jackson.core.PrettyPrinter]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultPropertyInclusion' of type [com.fasterxml.jackson.annotation.JsonInclude$Value]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultSetterInfo' of type [com.fasterxml.jackson.annotation.JsonSetter$Value]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultTyping' of type [com.fasterxml.jackson.databind.jsontype.TypeResolverBuilder]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultVisibility' of type [com.fasterxml.jackson.annotation.JsonAutoDetect$Value]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deserializationConfig' of type [com.fasterxml.jackson.databind.DeserializationConfig]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deserializationContext' of type [com.fasterxml.jackson.databind.DeserializationContext]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'factory' of type [com.fasterxml.jackson.core.JsonFactory]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'filterProvider' of type [com.fasterxml.jackson.databind.ser.FilterProvider]
+20:42:15.510 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'filters' of type [com.fasterxml.jackson.databind.ser.FilterProvider]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'handlerInstantiator' of type [com.fasterxml.jackson.databind.cfg.HandlerInstantiator]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'injectableValues' of type [com.fasterxml.jackson.databind.InjectableValues]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'jsonFactory' of type [com.fasterxml.jackson.core.JsonFactory]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'locale' of type [java.util.Locale]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'mixInAnnotations' of type [java.util.Map]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'mixInResolver' of type [com.fasterxml.jackson.databind.introspect.ClassIntrospector$MixInResolver]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'mixIns' of type [java.util.Map]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'nodeFactory' of type [com.fasterxml.jackson.databind.node.JsonNodeFactory]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'polymorphicTypeValidator' of type [com.fasterxml.jackson.databind.jsontype.PolymorphicTypeValidator]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'propertyInclusion' of type [com.fasterxml.jackson.annotation.JsonInclude$Value]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'propertyNamingStrategy' of type [com.fasterxml.jackson.databind.PropertyNamingStrategy]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'registeredModuleIds' of type [java.util.Set]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serializationConfig' of type [com.fasterxml.jackson.databind.SerializationConfig]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serializationInclusion' of type [com.fasterxml.jackson.annotation.JsonInclude$Include]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serializerFactory' of type [com.fasterxml.jackson.databind.ser.SerializerFactory]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serializerProvider' of type [com.fasterxml.jackson.databind.SerializerProvider]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'serializerProviderInstance' of type [com.fasterxml.jackson.databind.SerializerProvider]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'subtypeResolver' of type [com.fasterxml.jackson.databind.jsontype.SubtypeResolver]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'timeZone' of type [java.util.TimeZone]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'typeFactory' of type [com.fasterxml.jackson.databind.type.TypeFactory]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'visibility' of type [com.fasterxml.jackson.databind.introspect.VisibilityChecker]
+20:42:15.511 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'visibilityChecker' of type [com.fasterxml.jackson.databind.introspect.VisibilityChecker]
+20:42:15.514 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jacksonObjectMapper'
+20:42:15.514 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'indexPageTransformer' via factory method to bean named 'org.springdoc.core.SwaggerUiConfigProperties'
+20:42:15.514 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'indexPageTransformer' via factory method to bean named 'org.springdoc.core.SwaggerUiOAuthProperties'
+20:42:15.514 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'indexPageTransformer' via factory method to bean named 'jacksonObjectMapper'
+20:42:15.516 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'indexPageTransformer' to allow for resolving potential circular references
+20:42:15.516 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springdoc.webmvc.ui.SwaggerIndexPageTransformer]
+20:42:15.517 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springdoc.webmvc.ui.SwaggerIndexPageTransformer]
+20:42:15.517 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.519 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'indexPageTransformer'
+20:42:15.519 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'swaggerWebMvcConfigurer' via factory method to bean named 'org.springdoc.core.SwaggerUiConfigParameters'
+20:42:15.519 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'swaggerWebMvcConfigurer' via factory method to bean named 'indexPageTransformer'
+20:42:15.519 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'swaggerWebMvcConfigurer' to allow for resolving potential circular references
+20:42:15.519 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springdoc.webmvc.ui.SwaggerWebMvcConfigurer]
+20:42:15.521 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springdoc.webmvc.ui.SwaggerWebMvcConfigurer]
+20:42:15.521 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.521 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'messageCodesResolver' of type [org.springframework.validation.MessageCodesResolver]
+20:42:15.521 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'validator' of type [org.springframework.validation.Validator]
+20:42:15.522 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'swaggerWebMvcConfigurer'
+20:42:15.523 [main] TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' to bean named 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter'
+20:42:15.523 [main] TRACE o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration' to bean named 'swaggerWebMvcConfigurer'
+20:42:15.523 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:42:15.523 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+20:42:15.523 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'requestMappingHandlerAdapter'
+20:42:15.523 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:42:15.524 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+20:42:15.524 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcContentNegotiationManager'
+20:42:15.524 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:42:15.528 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcContentNegotiationManager' to allow for resolving potential circular references
+20:42:15.528 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.web.accept.ContentNegotiationManager]
+20:42:15.529 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.web.accept.ContentNegotiationManager]
+20:42:15.529 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'allFileExtensions' of type [java.util.List]
+20:42:15.529 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.529 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'mediaTypeMappings' of type [java.util.Map]
+20:42:15.529 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'strategies' of type [java.util.List]
+20:42:15.531 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcContentNegotiationManager'
+20:42:15.531 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcConversionService'
+20:42:15.531 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcConversionService'
+20:42:15.531 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:42:15.534 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcConversionService' to allow for resolving potential circular references
+20:42:15.535 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.format.WebConversionService]
+20:42:15.538 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.format.WebConversionService]
+20:42:15.538 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.539 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'embeddedValueResolver' of type [org.springframework.util.StringValueResolver]
+20:42:15.544 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcConversionService'
+20:42:15.545 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcValidator'
+20:42:15.545 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcValidator'
+20:42:15.545 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:42:15.552 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcValidator' to allow for resolving potential circular references
+20:42:15.552 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.validation.ValidatorAdapter]
+20:42:15.553 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.validation.ValidatorAdapter]
+20:42:15.553 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+20:42:15.553 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.553 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'target' of type [org.springframework.validation.Validator]
+20:42:15.556 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'mvcValidator'
+20:42:15.556 [main] DEBUG o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider
+javax.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+	at javax.validation.Validation$GenericBootstrapImpl.configure(Validation.java:291)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:259)
+	at org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean.afterPropertiesSet(OptionalValidatorFactoryBean.java:40)
+	at org.springframework.boot.autoconfigure.validation.ValidatorAdapter.afterPropertiesSet(ValidatorAdapter.java:83)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743)
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.util.Optional.orElseGet(Optional.java:267)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:84)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+20:42:15.557 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcValidator'
+20:42:15.557 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+20:42:15.557 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+20:42:15.557 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+20:42:15.561 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+20:42:15.561 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+20:42:15.561 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcValidator'
+20:42:15.561 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+20:42:15.561 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+20:42:15.561 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+20:42:15.572 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'messageConverters'
+20:42:15.572 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'messageConverters'
+20:42:15.572 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+20:42:15.572 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+20:42:15.572 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration' to allow for resolving potential circular references
+20:42:15.572 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration]
+20:42:15.573 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration]
+20:42:15.573 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.573 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration'
+20:42:15.576 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'stringHttpMessageConverter'
+20:42:15.576 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'stringHttpMessageConverter'
+20:42:15.576 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+20:42:15.576 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+20:42:15.576 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration' to allow for resolving potential circular references
+20:42:15.576 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration]
+20:42:15.576 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration]
+20:42:15.576 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.577 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration'
+20:42:15.577 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'environment'
+20:42:15.577 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'stringHttpMessageConverter' via factory method to bean named 'environment'
+20:42:15.580 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'stringHttpMessageConverter' to allow for resolving potential circular references
+20:42:15.580 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.http.converter.StringHttpMessageConverter]
+20:42:15.581 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.http.converter.StringHttpMessageConverter]
+20:42:15.581 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.581 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultCharset' of type [java.nio.charset.Charset]
+20:42:15.581 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'supportedMediaTypes' of type [java.util.List]
+20:42:15.581 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'writeAcceptCharset' of type [boolean]
+20:42:15.583 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'stringHttpMessageConverter'
+20:42:15.583 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mappingJackson2HttpMessageConverter'
+20:42:15.583 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mappingJackson2HttpMessageConverter'
+20:42:15.583 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+20:42:15.583 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+20:42:15.583 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration' to allow for resolving potential circular references
+20:42:15.583 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration]
+20:42:15.584 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration]
+20:42:15.584 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.584 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration'
+20:42:15.584 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'jacksonObjectMapper'
+20:42:15.584 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'mappingJackson2HttpMessageConverter' via factory method to bean named 'jacksonObjectMapper'
+20:42:15.584 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mappingJackson2HttpMessageConverter' to allow for resolving potential circular references
+20:42:15.584 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter]
+20:42:15.587 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter]
+20:42:15.587 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.587 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultCharset' of type [java.nio.charset.Charset]
+20:42:15.587 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'jsonPrefix' of type [java.lang.String]
+20:42:15.587 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'objectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper]
+20:42:15.587 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'prefixJson' of type [boolean]
+20:42:15.587 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'prettyPrint' of type [boolean]
+20:42:15.587 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'supportedMediaTypes' of type [java.util.List]
+20:42:15.589 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mappingJackson2HttpMessageConverter'
+20:42:15.589 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'stringHttpMessageConverter'
+20:42:15.589 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mappingJackson2HttpMessageConverter'
+20:42:15.593 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'messageConverters' to allow for resolving potential circular references
+20:42:15.593 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.http.HttpMessageConverters]
+20:42:15.594 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.http.HttpMessageConverters]
+20:42:15.594 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.594 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'converters' of type [java.util.List]
+20:42:15.594 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'messageConverters'
+20:42:15.596 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'applicationTaskExecutor'
+20:42:15.596 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'applicationTaskExecutor'
+20:42:15.596 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration'
+20:42:15.596 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'taskExecutorBuilder'
+20:42:15.596 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'applicationTaskExecutor' via factory method to bean named 'taskExecutorBuilder'
+20:42:15.600 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'applicationTaskExecutor' to allow for resolving potential circular references
+20:42:15.600 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]
+20:42:15.602 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor]
+20:42:15.602 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'activeCount' of type [int]
+20:42:15.602 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'allowCoreThreadTimeOut' of type [boolean]
+20:42:15.602 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'awaitTerminationMillis' of type [long]
+20:42:15.602 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'awaitTerminationSeconds' of type [int]
+20:42:15.602 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'beanName' of type [java.lang.String]
+20:42:15.602 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:15.602 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'corePoolSize' of type [int]

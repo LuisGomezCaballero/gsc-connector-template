@@ -1,0 +1,32 @@
+20:45:53.730 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'Inlined Test Properties'
+20:45:53.731 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'systemProperties'
+20:45:53.757 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'systemEnvironment'
+20:45:53.758 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'random'
+20:45:53.758 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:53.758 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.banner.image.location' in any property source
+20:45:53.760 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.location' in PropertySource 'configurationProperties'
+20:45:53.760 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.banner.location' in PropertySource 'configurationProperties' with value of type String
+20:45:53.762 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'configurationProperties'
+20:45:53.762 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'Inlined Test Properties'
+20:45:53.762 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'systemProperties'
+20:45:53.762 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'systemEnvironment'
+20:45:53.762 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'random'
+20:45:53.762 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:53.762 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.banner.charset' in any property source
+20:45:53.766 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'configurationProperties'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'Inlined Test Properties'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'systemProperties'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'systemEnvironment'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'random'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'application.title' in any property source
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'configurationProperties'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'Inlined Test Properties'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'systemProperties'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'systemEnvironment'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'random'
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'application.formatted-version' in any property source
+20:45:53.767 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'version'
+20:45:53.768 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'application.title' in any property source
+20:45:53.768 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'version'

@@ -1,0 +1,512 @@
+20:46:39.274 [main] TRACE o.s.c.i.s.SpringFactoriesLoader - Loaded [org.springframework.boot.env.PropertySourceLoader] names: [org.springframework.boot.env.PropertiesPropertySourceLoader, org.springframework.boot.env.YamlPropertySourceLoader]
+20:46:39.283 [main] DEBUG o.s.boot.env.OriginTrackedYamlLoader - Loading from YAML: class path resource [application.yaml]
+20:46:39.285 [main] DEBUG o.s.boot.env.OriginTrackedYamlLoader - Merging document (no matchers set): {server={port=8080}, logging={level={root=trace}}, spring={main={banner-mode=console}, banner={location=classpath:custom-banner.txt}}}
+20:46:39.285 [main] DEBUG o.s.boot.env.OriginTrackedYamlLoader - Loaded 1 document from YAML resource: class path resource [application.yaml]
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'configurationProperties'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'Inlined Test Properties'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemProperties'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemEnvironment'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'random'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.main.cloud-platform' in any property source
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'configurationProperties'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'Inlined Test Properties'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemProperties'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemEnvironment'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'random'
+20:46:39.290 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.main.cloud-platform' in any property source
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'configurationProperties'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'Inlined Test Properties'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemProperties'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemEnvironment'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'random'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.main.cloud-platform' in any property source
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'configurationProperties'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'Inlined Test Properties'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemProperties'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemEnvironment'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'random'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.main.cloud-platform' in any property source
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'configurationProperties'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'Inlined Test Properties'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemProperties'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'systemEnvironment'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.main.cloud-platform' in PropertySource 'random'
+20:46:39.291 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.main.cloud-platform' in any property source
+20:46:39.292 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'configurationProperties'
+20:46:39.292 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'Inlined Test Properties'
+20:46:39.292 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'systemProperties'
+20:46:39.292 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'systemEnvironment'
+20:46:39.292 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'random'
+20:46:39.292 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.profiles.active' in any property source
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'configurationProperties'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'Inlined Test Properties'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'systemProperties'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'systemEnvironment'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'random'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.profiles.active' in any property source
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'configurationProperties'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'Inlined Test Properties'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'systemProperties'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'systemEnvironment'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'random'
+20:46:39.293 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.profiles.default' in any property source
+20:46:39.294 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'configurationProperties'
+20:46:39.294 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'Inlined Test Properties'
+20:46:39.294 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'systemProperties'
+20:46:39.294 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'systemEnvironment'
+20:46:39.294 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'random'
+20:46:39.294 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.profiles.default' in any property source
+20:46:39.301 [main] DEBUG o.s.core.env.StandardEnvironment - Activating profiles []
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.output.ansi.console-available' in PropertySource 'configurationProperties'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.output.ansi.console-available' in PropertySource 'Inlined Test Properties'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.output.ansi.console-available' in PropertySource 'systemProperties'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.output.ansi.console-available' in PropertySource 'systemEnvironment'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.output.ansi.console-available' in PropertySource 'random'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.output.ansi.console-available' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.output.ansi.console-available' in any property source
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.exception-conversion-word' in PropertySource 'configurationProperties'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.exception-conversion-word' in PropertySource 'Inlined Test Properties'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.exception-conversion-word' in PropertySource 'systemProperties'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.exception-conversion-word' in PropertySource 'systemEnvironment'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.exception-conversion-word' in PropertySource 'random'
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.exception-conversion-word' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.303 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.exception-conversion-word' in any property source
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.console' in PropertySource 'configurationProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.console' in PropertySource 'Inlined Test Properties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.console' in PropertySource 'systemProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.console' in PropertySource 'systemEnvironment'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.console' in PropertySource 'random'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.console' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.pattern.console' in any property source
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.console' in PropertySource 'configurationProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.console' in PropertySource 'Inlined Test Properties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.console' in PropertySource 'systemProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.console' in PropertySource 'systemEnvironment'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.console' in PropertySource 'random'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.console' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.charset.console' in any property source
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.dateformat' in PropertySource 'configurationProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.dateformat' in PropertySource 'Inlined Test Properties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.dateformat' in PropertySource 'systemProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.dateformat' in PropertySource 'systemEnvironment'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.dateformat' in PropertySource 'random'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.dateformat' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.pattern.dateformat' in any property source
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.file' in PropertySource 'configurationProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.file' in PropertySource 'Inlined Test Properties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.file' in PropertySource 'systemProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.file' in PropertySource 'systemEnvironment'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.file' in PropertySource 'random'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.file' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.pattern.file' in any property source
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.file' in PropertySource 'configurationProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.file' in PropertySource 'Inlined Test Properties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.file' in PropertySource 'systemProperties'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.file' in PropertySource 'systemEnvironment'
+20:46:39.304 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.file' in PropertySource 'random'
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.charset.file' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.charset.file' in any property source
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.level' in PropertySource 'configurationProperties'
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.level' in PropertySource 'Inlined Test Properties'
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.level' in PropertySource 'systemProperties'
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.level' in PropertySource 'systemEnvironment'
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.level' in PropertySource 'random'
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.level' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.pattern.level' in any property source
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'configurationProperties'
+20:46:39.305 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'Inlined Test Properties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'systemProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'systemEnvironment'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'random'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.clean-history-on-start' in any property source
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'configurationProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'Inlined Test Properties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'systemProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'systemEnvironment'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'random'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.max-history' in any property source
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'configurationProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'Inlined Test Properties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'systemProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'systemEnvironment'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'random'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.max-size' in any property source
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'configurationProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'Inlined Test Properties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'systemProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'systemEnvironment'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'random'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.total-size-cap' in any property source
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'configurationProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'Inlined Test Properties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'systemProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'systemEnvironment'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'random'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.pattern.rolling-file-name' in any property source
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.file-name-pattern' in PropertySource 'configurationProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.file-name-pattern' in PropertySource 'Inlined Test Properties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.file-name-pattern' in PropertySource 'systemProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.file-name-pattern' in PropertySource 'systemEnvironment'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.file-name-pattern' in PropertySource 'random'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.file-name-pattern' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.logback.rollingpolicy.file-name-pattern' in any property source
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'configurationProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'Inlined Test Properties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'systemProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'systemEnvironment'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'random'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.pattern.rolling-file-name' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.pattern.rolling-file-name' in any property source
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.clean-history-on-start' in PropertySource 'configurationProperties'
+20:46:39.306 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.clean-history-on-start' in PropertySource 'Inlined Test Properties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.clean-history-on-start' in PropertySource 'systemProperties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.clean-history-on-start' in PropertySource 'systemEnvironment'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.clean-history-on-start' in PropertySource 'random'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.clean-history-on-start' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.logback.rollingpolicy.clean-history-on-start' in any property source
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'configurationProperties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'Inlined Test Properties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'systemProperties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'systemEnvironment'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'random'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.clean-history-on-start' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.clean-history-on-start' in any property source
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-file-size' in PropertySource 'configurationProperties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-file-size' in PropertySource 'Inlined Test Properties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-file-size' in PropertySource 'systemProperties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-file-size' in PropertySource 'systemEnvironment'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-file-size' in PropertySource 'random'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-file-size' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.logback.rollingpolicy.max-file-size' in any property source
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'configurationProperties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'Inlined Test Properties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'systemProperties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'systemEnvironment'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'random'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-size' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.max-size' in any property source
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.total-size-cap' in PropertySource 'configurationProperties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.total-size-cap' in PropertySource 'Inlined Test Properties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.total-size-cap' in PropertySource 'systemProperties'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.total-size-cap' in PropertySource 'systemEnvironment'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.total-size-cap' in PropertySource 'random'
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.total-size-cap' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.logback.rollingpolicy.total-size-cap' in any property source
+20:46:39.307 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'configurationProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'Inlined Test Properties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'systemProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'systemEnvironment'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'random'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.total-size-cap' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.total-size-cap' in any property source
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-history' in PropertySource 'configurationProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-history' in PropertySource 'Inlined Test Properties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-history' in PropertySource 'systemProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-history' in PropertySource 'systemEnvironment'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-history' in PropertySource 'random'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.logback.rollingpolicy.max-history' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.logback.rollingpolicy.max-history' in any property source
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'configurationProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'Inlined Test Properties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'systemProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'systemEnvironment'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'random'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.max-history' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.max-history' in any property source
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.name' in PropertySource 'configurationProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.name' in PropertySource 'Inlined Test Properties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.name' in PropertySource 'systemProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.name' in PropertySource 'systemEnvironment'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.name' in PropertySource 'random'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.name' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.name' in any property source
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.path' in PropertySource 'configurationProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.path' in PropertySource 'Inlined Test Properties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.path' in PropertySource 'systemProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.path' in PropertySource 'systemEnvironment'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.path' in PropertySource 'random'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.file.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.file.path' in any property source
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'debug' in PropertySource 'configurationProperties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'debug' in PropertySource 'Inlined Test Properties'
+20:46:39.308 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'debug' in PropertySource 'systemProperties'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'debug' in PropertySource 'systemEnvironment'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'debug' in PropertySource 'random'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'debug' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'debug' in any property source
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'trace' in PropertySource 'configurationProperties'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'trace' in PropertySource 'Inlined Test Properties'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'trace' in PropertySource 'systemProperties'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'trace' in PropertySource 'systemEnvironment'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'trace' in PropertySource 'random'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'trace' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'trace' in any property source
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.config' in PropertySource 'configurationProperties'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.config' in PropertySource 'Inlined Test Properties'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.config' in PropertySource 'systemProperties'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.config' in PropertySource 'systemEnvironment'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.config' in PropertySource 'random'
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.config' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.309 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.config' in any property source
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'configurationProperties'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'Inlined Test Properties'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'systemProperties'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'systemEnvironment'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'random'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.register-shutdown-hook' in any property source
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'configurationProperties'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'Inlined Test Properties'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'systemProperties'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'systemEnvironment'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'random'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'context.listener.classes' in any property source
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'configurationProperties'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'Inlined Test Properties'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'systemProperties'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'systemEnvironment'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'random'
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.318 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.mandatory-file-encoding' in any property source
+20:46:39.323 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'configurationProperties'
+20:46:39.324 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'Inlined Test Properties'
+20:46:39.324 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'systemProperties'
+20:46:39.324 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'systemEnvironment'
+20:46:39.324 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'random'
+20:46:39.324 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.324 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.banner.image.location' in any property source
+20:46:39.325 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.location' in PropertySource 'configurationProperties'
+20:46:39.325 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'spring.banner.location' in PropertySource 'configurationProperties' with value of type String
+20:46:39.326 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'configurationProperties'
+20:46:39.326 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'Inlined Test Properties'
+20:46:39.326 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'systemProperties'
+20:46:39.326 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'systemEnvironment'
+20:46:39.326 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'random'
+20:46:39.326 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.charset' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.326 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.banner.charset' in any property source
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'configurationProperties'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'Inlined Test Properties'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'systemProperties'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'systemEnvironment'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'random'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'application.title' in any property source
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'configurationProperties'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'Inlined Test Properties'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'systemProperties'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'systemEnvironment'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'random'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'application.formatted-version' in any property source
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'version'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'application.title' in any property source
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.formatted-version' in PropertySource 'version'
+20:46:39.327 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'application.formatted-version' in PropertySource 'version' with value of type String
+20:46:39.327 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'application.formatted-version'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'ansi'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'application.title' in any property source
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'title'
+20:46:39.327 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'application.title' in PropertySource 'title' with value of type String
+20:46:39.327 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'application.title'
+20:46:39.327 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'configurationProperties'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'Inlined Test Properties'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'systemProperties'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'systemEnvironment'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'random'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'context.initializer.classes' in any property source
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'configurationProperties'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'Inlined Test Properties'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'systemProperties'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'systemEnvironment'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'random'
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.328 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.name' in any property source
+20:46:39.333 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'restart' with implementation [org.springframework.boot.devtools.restart.RestartScopeInitializer$RestartScope@6c1cfa53]
+20:46:39.334 [main] INFO  n.a.m.g.c.TemplateControllerTest - Starting TemplateControllerTest using Java 1.8.0_291 on XPS15-9500 with PID 11552 (started by Luis in C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template)
+20:46:39.334 [main] DEBUG n.a.m.g.c.TemplateControllerTest - Running with Spring Boot v2.4.5, Spring v5.3.6
+20:46:39.334 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'Annotations'
+20:46:39.334 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'configurationProperties'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'test'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'Inlined Test Properties'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'systemProperties'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'systemEnvironment'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'random'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.profiles.active' in any property source
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'Annotations'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'configurationProperties'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'test'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'Inlined Test Properties'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'systemProperties'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'systemEnvironment'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'random'
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.335 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.profiles.default' in any property source
+20:46:39.335 [main] INFO  n.a.m.g.c.TemplateControllerTest - No active profile set, falling back to default profiles: default
+20:46:39.335 [main] DEBUG o.s.boot.SpringApplication - Loading source class net.atos.mcs.gscconnectortemplate.GscConnectorTemplateApplication
+20:46:39.336 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+20:46:39.338 [main] TRACE o.s.b.env.EnvironmentPostProcessor - RandomValuePropertySource add to Environment
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentPostProcessor - Post-processing environment to add config data
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Building config data environment contributors
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'configurationProperties'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'Inlined Test Properties'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'systemProperties'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'systemEnvironment'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'random'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:file:./config/*/'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:file:./config/'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:file:./'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:classpath:/config/'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:classpath:/'
+20:46:39.338 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Processing initial config data environment contributors without activation context
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports for phase BEFORE_PROFILE_ACTIVATION. no activation context
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./config/*/]
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.yaml
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.yml
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.xml
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.properties
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./config/]
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.yaml
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.yml
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.xml
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.properties
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./]
+20:46:39.338 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.yaml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.yml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.xml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.properties
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:classpath:/config/]
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.yaml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.yml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.xml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.properties
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:classpath:/]
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.yml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.xml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.properties
+20:46:39.339 [main] TRACE o.s.b.c.config.ConfigDataLoaders - Loading class path resource [application.yaml] using loader org.springframework.boot.context.config.StandardConfigDataLoader
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Imported 1 resource [class path resource [application.yaml]]
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processed imports for of 5 contributors
+20:46:39.339 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating config data activation context from initial contributions
+20:46:39.339 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Processing config data environment contributors with initial activation context
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports for phase BEFORE_PROFILE_ACTIVATION. [ConfigDataActivationContext@61bcbcce cloudPlatform = [null], profiles = [null]]
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processed imports for of 0 contributors
+20:46:39.339 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Deducing profiles from current config data environment contributors
+20:46:39.339 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Processing config data environment contributors with profile activation context
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports for phase AFTER_PROFILE_ACTIVATION. [ConfigDataActivationContext@6af91cc8 cloudPlatform = [null], profiles = [Profiles@6232ffdb active = '[]', default = '[default]', accepted = '[default]']]
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./config/*/]
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.yaml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.yml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.xml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.properties
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application-default.yaml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application-default.yml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application-default.xml
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application-default.properties
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./config/]
+20:46:39.339 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.yaml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.yml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.xml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.properties
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application-default.yaml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application-default.yml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application-default.xml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application-default.properties
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./]
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.yaml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.yml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.xml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.properties
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application-default.yaml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application-default.yml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application-default.xml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application-default.properties
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:classpath:/config/]
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.yaml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.yml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.xml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.properties
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application-default.yaml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application-default.yml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application-default.xml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application-default.properties
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:classpath:/]
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.yml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.xml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.properties
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application-default.yaml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application-default.yml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application-default.xml
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application-default.properties
+20:46:39.340 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:46:39.341 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processed imports for of 5 contributors
+20:46:39.341 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Applying config data environment contributions
+20:46:39.341 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding imported property source 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:39.341 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Setting default profiles: [default]
+20:46:39.341 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Setting active profiles: []
+20:46:39.341 [main] TRACE o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@32e652b6, started on Wed May 19 20:46:39 CEST 2021
+20:46:39.341 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@15efda6c]
+20:46:39.341 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@6056232d]
+20:46:39.341 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@33f2df51]
+20:46:39.343 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:46:39.343 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:46:39.343 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+20:46:39.343 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+20:46:39.343 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+20:46:39.343 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' to allow for resolving potential circular references
+20:46:39.343 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+20:46:39.343 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.context.annotation.ConfigurationClassPostProcessor]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.context.annotation.ConfigurationClassPostProcessor]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'applicationStartup' of type [org.springframework.core.metrics.ApplicationStartup]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'beanNameGenerator' of type [org.springframework.beans.factory.support.BeanNameGenerator]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'environment' of type [org.springframework.core.env.Environment]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'metadataReaderFactory' of type [org.springframework.core.type.classreading.MetadataReaderFactory]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'order' of type [int]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'problemReporter' of type [org.springframework.beans.factory.parsing.ProblemReporter]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+20:46:39.345 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'sourceExtractor' of type [org.springframework.beans.factory.parsing.SourceExtractor]
+20:46:39.353 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:46:39.362 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+20:46:39.364 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [net/atos/mcs/gscconnectortemplate/] to resources [URL [file:/C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/test-classes/net/atos/mcs/gscconnectortemplate/], URL [file:/C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/]]
+20:46:39.364 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate]
+20:46:39.364 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/test-classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:46:39.365 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\controller] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/test-classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:46:39.365 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate]
+20:46:39.366 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:46:39.366 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\configuration] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:46:39.366 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\controller] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:46:39.367 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\domain] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:46:39.367 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\exception] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:46:39.368 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:net/atos/mcs/gscconnectortemplate/**/*.class] to resources [file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplicationTests.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\controller\TemplateControllerTest.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplication.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\configuration\SwaggerConfiguration.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\controller\TemplateController.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\domain\TemplateRequest.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\domain\TemplateResponse.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\exception\TemplateAdvice.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\exception\TemplateException.class]]
+20:46:39.368 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplicationTests.class]
+20:46:39.369 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.test.context.filter.TestTypeExcludeFilter'
+20:46:39.369 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.test.autoconfigure.filter.TypeExcludeFilters'
+20:46:39.369 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplicationTests.class]
+20:46:39.369 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\controller\TemplateControllerTest.class]
+20:46:39.369 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\controller\TemplateControllerTest.class]
+20:46:39.369 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplication.class]
+20:46:39.369 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplication.class]
+20:46:39.370 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\configuration\SwaggerConfiguration.class]
+20:46:39.371 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\configuration\SwaggerConfiguration.class]
+20:46:39.371 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\controller\TemplateController.class]
+20:46:39.373 [main] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\controller\TemplateController.class]
+20:46:39.373 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\domain\TemplateRequest.class]
+20:46:39.373 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\domain\TemplateRequest.class]
+20:46:39.373 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\domain\TemplateResponse.class]

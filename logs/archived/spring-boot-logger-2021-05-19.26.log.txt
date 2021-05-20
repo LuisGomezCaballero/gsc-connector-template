@@ -1,0 +1,526 @@
+20:45:29.662 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'daemon' of type [boolean]
+20:45:29.663 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'keepAliveSeconds' of type [int]
+20:45:29.663 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'maxPoolSize' of type [int]
+20:45:29.663 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'poolSize' of type [int]
+20:45:29.663 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'queueCapacity' of type [int]
+20:45:29.663 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'rejectedExecutionHandler' of type [java.util.concurrent.RejectedExecutionHandler]
+20:45:29.664 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'taskDecorator' of type [org.springframework.core.task.TaskDecorator]
+20:45:29.664 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'threadFactory' of type [java.util.concurrent.ThreadFactory]
+20:45:29.664 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'threadGroup' of type [java.lang.ThreadGroup]
+20:45:29.664 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'threadGroupName' of type [java.lang.String]
+20:45:29.664 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'threadNamePrefix' of type [java.lang.String]
+20:45:29.664 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'threadPoolExecutor' of type [java.util.concurrent.ThreadPoolExecutor]
+20:45:29.664 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'threadPriority' of type [int]
+20:45:29.664 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'waitForTasksToCompleteOnShutdown' of type [boolean]
+20:45:29.670 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'applicationTaskExecutor'
+20:45:29.670 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+20:45:29.670 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'applicationTaskExecutor'
+20:45:29.673 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'requestMappingHandlerAdapter' to allow for resolving potential circular references
+20:45:29.673 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'alwaysMustRevalidate' of type [boolean]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'argumentResolvers' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'asyncRequestTimeout' of type [long]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'beanFactory' of type [org.springframework.beans.factory.BeanFactory]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'cacheControl' of type [org.springframework.http.CacheControl]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'cacheSeconds' of type [int]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'cacheSecondsForSessionAttributeHandlers' of type [int]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'callableInterceptors' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'contentNegotiationManager' of type [org.springframework.web.accept.ContentNegotiationManager]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'customArgumentResolvers' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'customReturnValueHandlers' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'deferredResultInterceptors' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'ignoreDefaultModelOnRedirect' of type [boolean]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'initBinderArgumentResolvers' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'messageConverters' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'modelAndViewResolvers' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'order' of type [int]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'parameterNameDiscoverer' of type [org.springframework.core.ParameterNameDiscoverer]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'reactiveAdapterRegistry' of type [org.springframework.core.ReactiveAdapterRegistry]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'requestBodyAdvice' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'requireSession' of type [boolean]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'responseBodyAdvice' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'returnValueHandlers' of type [java.util.List]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'sessionAttributeStore' of type [org.springframework.web.bind.support.SessionAttributeStore]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'supportedMethods' of type [[Ljava.lang.String;]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'synchronizeOnSession' of type [boolean]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'taskExecutor' of type [org.springframework.core.task.AsyncTaskExecutor]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'useCacheControlHeader' of type [boolean]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'useCacheControlNoStore' of type [boolean]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'useExpiresHeader' of type [boolean]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'varyByRequestHeaders' of type [[Ljava.lang.String;]
+20:45:29.678 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'webBindingInitializer' of type [org.springframework.web.bind.support.WebBindingInitializer]
+20:45:29.683 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerAdapter'
+20:45:29.687 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice'
+20:45:29.687 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice'
+20:45:29.688 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springdoc.core.SpringDocConfiguration'
+20:45:29.688 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springdoc.core.SpringDocConfiguration'
+20:45:29.690 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springdoc.core.SpringDocConfiguration' to allow for resolving potential circular references
+20:45:29.690 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springdoc.core.SpringDocConfiguration]
+20:45:29.691 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springdoc.core.SpringDocConfiguration]
+20:45:29.691 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.691 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springdoc.core.SpringDocConfiguration'
+20:45:29.691 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice' via constructor to bean named 'org.springdoc.core.SpringDocConfiguration'
+20:45:29.691 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice' to allow for resolving potential circular references
+20:45:29.691 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice]
+20:45:29.692 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice]
+20:45:29.692 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.692 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springdoc.core.SpringDocConfiguration$OpenApiResourceAdvice'
+20:45:29.693 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'templateAdvice'
+20:45:29.694 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+20:45:29.719 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestMappingHandlerAdapter'
+20:45:29.719 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+20:45:29.719 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'requestMappingHandlerMapping'
+20:45:29.719 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:45:29.720 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+20:45:29.720 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+20:45:29.720 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+20:45:29.720 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcResourceUrlProvider'
+20:45:29.720 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:45:29.721 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dispatcherServletRegistration'
+20:45:29.721 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dispatcherServletRegistration'
+20:45:29.722 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dispatcherServletRegistration'
+20:45:29.722 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcResourceUrlProvider' to allow for resolving potential circular references
+20:45:29.722 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.web.servlet.resource.ResourceUrlProvider]
+20:45:29.724 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.web.servlet.resource.ResourceUrlProvider]
+20:45:29.724 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+20:45:29.724 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'autodetect' of type [boolean]
+20:45:29.724 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.724 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'handlerMap' of type [java.util.Map]
+20:45:29.724 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'pathMatcher' of type [org.springframework.util.PathMatcher]
+20:45:29.724 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+20:45:29.726 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcResourceUrlProvider'
+20:45:29.726 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+20:45:29.726 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+20:45:29.726 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+20:45:29.727 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+20:45:29.727 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+20:45:29.727 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+20:45:29.727 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+20:45:29.727 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+20:45:29.727 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+20:45:29.739 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'requestMappingHandlerMapping' to allow for resolving potential circular references
+20:45:29.739 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'alwaysUseFullPath' of type [boolean]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'beanName' of type [java.lang.String]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'contentNegotiationManager' of type [org.springframework.web.accept.ContentNegotiationManager]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'corsConfigurationSource' of type [org.springframework.web.cors.CorsConfigurationSource]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'corsConfigurations' of type [java.util.Map]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'corsProcessor' of type [org.springframework.web.cors.CorsProcessor]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultHandler' of type [java.lang.Object]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'detectHandlerMethodsInAncestorContexts' of type [boolean]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'embeddedValueResolver' of type [org.springframework.util.StringValueResolver]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'fileExtensions' of type [java.util.List]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'handlerMethodMappingNamingStrategy' of type [org.springframework.web.servlet.handler.HandlerMethodMappingNamingStrategy]
+20:45:29.743 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'handlerMethods' of type [java.util.Map]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'interceptors' of type [[Ljava.lang.Object;]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'namingStrategy' of type [org.springframework.web.servlet.handler.HandlerMethodMappingNamingStrategy]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'order' of type [int]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'pathMatcher' of type [org.springframework.util.PathMatcher]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'pathPrefixes' of type [java.util.Map]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'patternParser' of type [org.springframework.web.util.pattern.PathPatternParser]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'removeSemicolonContent' of type [boolean]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urlDecode' of type [boolean]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'useRegisteredSuffixPatternMatch' of type [boolean]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'useSuffixPatternMatch' of type [boolean]
+20:45:29.744 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'useTrailingSlashMatch' of type [boolean]
+20:45:29.753 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerMapping'
+20:45:29.770 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	n.a.m.g.c.TemplateController:
+	{GET [/exception]}: exception()
+	{GET [/helloWorld]}: helloWorld()
+	{POST [/myRequest]}: myRequest(TemplateRequest)
+	{GET [/employees/{id}]}: one(Long)
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'environmentProperties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'configurationProperties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'test'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'Inlined Test Properties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'systemProperties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'systemEnvironment'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'random'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'localProperties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'environmentProperties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'configurationProperties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'test'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'Inlined Test Properties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'systemProperties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'systemEnvironment'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'random'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'localProperties'
+20:45:29.771 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+20:45:29.772 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'error.path:/error'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'environmentProperties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'configurationProperties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'test'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'Inlined Test Properties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'systemProperties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'systemEnvironment'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'random'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'localProperties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'environmentProperties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'configurationProperties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'test'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'Inlined Test Properties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'systemProperties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'systemEnvironment'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'random'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'localProperties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+20:45:29.772 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'server.error.path:/error'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'environmentProperties'
+20:45:29.772 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'configurationProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'test'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'Inlined Test Properties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'systemProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'systemEnvironment'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'random'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path:/error' in PropertySource 'localProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path:/error' in any property source
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'environmentProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'configurationProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'test'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'Inlined Test Properties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'systemProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'systemEnvironment'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'random'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'error.path' in PropertySource 'localProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'error.path' in any property source
+20:45:29.773 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'error.path:/error'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'environmentProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'configurationProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'test'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'Inlined Test Properties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'systemProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'systemEnvironment'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'random'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path:/error' in PropertySource 'localProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path:/error' in any property source
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'environmentProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'configurationProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'test'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'Inlined Test Properties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'systemProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'systemEnvironment'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'random'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'server.error.path' in PropertySource 'localProperties'
+20:45:29.773 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'server.error.path' in any property source
+20:45:29.773 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'server.error.path:/error'
+20:45:29.774 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+20:45:29.789 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'environmentProperties'
+20:45:29.789 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'configurationProperties'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'test'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Inlined Test Properties'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemProperties'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemEnvironment'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'random'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'localProperties'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'environmentProperties'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'configurationProperties'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'test'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Inlined Test Properties'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemProperties'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemEnvironment'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'random'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'localProperties'
+20:45:29.790 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.790 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'environmentProperties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'configurationProperties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'test'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Inlined Test Properties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemProperties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemEnvironment'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'random'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'localProperties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'environmentProperties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'configurationProperties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'test'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Inlined Test Properties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemProperties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemEnvironment'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'random'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'localProperties'
+20:45:29.842 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.842 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'environmentProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'configurationProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'test'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Inlined Test Properties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemEnvironment'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'random'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'localProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'environmentProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'configurationProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'test'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Inlined Test Properties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemEnvironment'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'random'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'localProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.849 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'environmentProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'configurationProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'test'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Inlined Test Properties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemEnvironment'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'random'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'localProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'environmentProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'configurationProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'test'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Inlined Test Properties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemProperties'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemEnvironment'
+20:45:29.849 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'random'
+20:45:29.850 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.850 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.850 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'localProperties'
+20:45:29.850 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.850 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}'
+20:45:29.850 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.a.OpenApiWebMvcResource:
+	{GET [/v3/api-docs.yaml], produces [application/vnd.oai.openapi]}: openapiYaml(HttpServletRequest,String)
+	{GET [/v3/api-docs], produces [application/json]}: openapiJson(HttpServletRequest,String)
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'environmentProperties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'configurationProperties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'test'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Inlined Test Properties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemProperties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemEnvironment'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'random'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'localProperties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'environmentProperties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'configurationProperties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'test'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Inlined Test Properties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemProperties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemEnvironment'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'random'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'localProperties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.852 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'environmentProperties'
+20:45:29.852 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'configurationProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'test'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'Inlined Test Properties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'systemProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'systemEnvironment'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'random'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in any property source
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'localProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in any property source
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'environmentProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'configurationProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'test'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'Inlined Test Properties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'systemProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'systemEnvironment'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'random'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.swagger-ui.path' in any property source
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'localProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.swagger-ui.path' in any property source
+20:45:29.853 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'environmentProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'configurationProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'test'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Inlined Test Properties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'systemEnvironment'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'random'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in PropertySource 'localProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}' in any property source
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'environmentProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'configurationProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'test'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Inlined Test Properties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'systemEnvironment'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'random'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.api-docs.path' in PropertySource 'localProperties'
+20:45:29.853 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.api-docs.path' in any property source
+20:45:29.853 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'springdoc.api-docs.path:#{T(org.springdoc.core.Constants).DEFAULT_API_DOCS_URL}'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'environmentProperties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'configurationProperties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'test'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'Inlined Test Properties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'systemProperties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'systemEnvironment'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'random'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in any property source
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in PropertySource 'localProperties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}' in any property source
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'environmentProperties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'configurationProperties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'test'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'Inlined Test Properties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'systemProperties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'systemEnvironment'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'random'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.swagger-ui.path' in any property source
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'springdoc.swagger-ui.path' in PropertySource 'localProperties'
+20:45:29.854 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'springdoc.swagger-ui.path' in any property source
+20:45:29.854 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'springdoc.swagger-ui.path:#{T(org.springdoc.core.Constants).DEFAULT_SWAGGER_UI_PATH}'
+20:45:29.854 [main] TRACE o.s.w.s.m.m.a.RequestMappingHandlerMapping - 
+	o.s.w.u.SwaggerWelcomeWebMvc:
+	{GET [/v3/api-docs/swagger-config], produces [application/json]}: openapiJson(HttpServletRequest)
+	{GET [/swagger-ui.html]}: redirectToUi(HttpServletRequest)
+20:45:29.856 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 10 mappings in 'requestMappingHandlerMapping'
+20:45:29.856 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestMappingHandlerMapping'
+20:45:29.856 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'welcomePageHandlerMapping'
+20:45:29.856 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'welcomePageHandlerMapping'
+20:45:29.856 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:45:29.856 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+20:45:29.856 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcResourceUrlProvider'
+20:45:29.856 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'org.springframework.web.context.support.GenericWebApplicationContext@5c530d1e'
+20:45:29.856 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcConversionService'
+20:45:29.856 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'welcomePageHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+20:45:29.856 [main] TRACE o.s.c.i.s.SpringFactoriesLoader - Loaded [org.springframework.boot.autoconfigure.template.TemplateAvailabilityProvider] names: [org.springframework.boot.autoconfigure.freemarker.FreeMarkerTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.mustache.MustacheTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.groovy.template.GroovyTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.thymeleaf.ThymeleafTemplateAvailabilityProvider, org.springframework.boot.autoconfigure.web.servlet.JspTemplateAvailabilityProvider]
+20:45:29.859 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.template.provider.cache' in PropertySource 'configurationProperties'
+20:45:29.859 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.template.provider.cache' in PropertySource 'test'
+20:45:29.859 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.template.provider.cache' in PropertySource 'Inlined Test Properties'
+20:45:29.859 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.template.provider.cache' in PropertySource 'systemProperties'
+20:45:29.859 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.template.provider.cache' in PropertySource 'systemEnvironment'
+20:45:29.859 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.template.provider.cache' in PropertySource 'random'
+20:45:29.859 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.template.provider.cache' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:29.859 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.template.provider.cache' in any property source
+20:45:29.861 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'welcomePageHandlerMapping' to allow for resolving potential circular references
+20:45:29.862 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+20:45:29.864 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'alwaysUseFullPath' of type [boolean]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'applicationContext' of type [org.springframework.context.ApplicationContext]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'beanName' of type [java.lang.String]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'corsConfigurationSource' of type [org.springframework.web.cors.CorsConfigurationSource]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'corsConfigurations' of type [java.util.Map]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'corsProcessor' of type [org.springframework.web.cors.CorsProcessor]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultHandler' of type [java.lang.Object]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'handlerMap' of type [java.util.Map]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'interceptors' of type [[Ljava.lang.Object;]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'lazyInitHandlers' of type [boolean]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'order' of type [int]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'pathMatcher' of type [org.springframework.util.PathMatcher]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'pathPatternHandlerMap' of type [java.util.Map]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'patternParser' of type [org.springframework.web.util.pattern.PathPatternParser]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'removeSemicolonContent' of type [boolean]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'rootHandler' of type [java.lang.Object]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'servletContext' of type [javax.servlet.ServletContext]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urlDecode' of type [boolean]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+20:45:29.865 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'useTrailingSlashMatch' of type [boolean]
+20:45:29.870 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'welcomePageHandlerMapping'
+20:45:29.870 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+20:45:29.871 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'localeResolver'
+20:45:29.871 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:45:29.871 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'localeResolver' to allow for resolving potential circular references
+20:45:29.871 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver]
+20:45:29.872 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver]
+20:45:29.872 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.872 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultLocale' of type [java.util.Locale]
+20:45:29.872 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'supportedLocales' of type [java.util.List]
+20:45:29.873 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'localeResolver'
+20:45:29.873 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'themeResolver'
+20:45:29.873 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'themeResolver'
+20:45:29.873 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:45:29.874 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'themeResolver' to allow for resolving potential circular references
+20:45:29.874 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.web.servlet.theme.FixedThemeResolver]
+20:45:29.875 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.web.servlet.theme.FixedThemeResolver]
+20:45:29.875 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.876 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultThemeName' of type [java.lang.String]
+20:45:29.876 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'themeResolver'
+20:45:29.876 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+20:45:29.876 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'flashMapManager'
+20:45:29.876 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:45:29.878 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'flashMapManager' to allow for resolving potential circular references
+20:45:29.878 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.web.servlet.support.SessionFlashMapManager]
+20:45:29.880 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.web.servlet.support.SessionFlashMapManager]
+20:45:29.880 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.880 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'flashMapTimeout' of type [int]
+20:45:29.880 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'urlPathHelper' of type [org.springframework.web.util.UrlPathHelper]
+20:45:29.881 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'flashMapManager'
+20:45:29.881 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcConversionService'
+20:45:29.881 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcValidator'
+20:45:29.881 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcContentNegotiationManager'
+20:45:29.881 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPatternParser'
+20:45:29.881 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcPatternParser'
+20:45:29.881 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:45:29.882 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcPatternParser' to allow for resolving potential circular references
+20:45:29.882 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.web.util.pattern.PathPatternParser]
+20:45:29.883 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.web.util.pattern.PathPatternParser]
+20:45:29.883 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'caseSensitive' of type [boolean]
+20:45:29.883 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.883 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'matchOptionalTrailingSeparator' of type [boolean]
+20:45:29.883 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'pathOptions' of type [org.springframework.http.server.PathContainer$Options]
+20:45:29.883 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'mvcPatternParser'
+20:45:29.883 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+20:45:29.883 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'mvcUrlPathHelper'
+20:45:29.883 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration'
+20:45:29.883 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'mvcUrlPathHelper' to allow for resolving potential circular references
+20:45:29.883 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.web.util.UrlPathHelper]
+20:45:29.884 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.web.util.UrlPathHelper]
+20:45:29.884 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'alwaysUseFullPath' of type [boolean]
+20:45:29.884 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:45:29.884 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'defaultEncoding' of type [java.lang.String]
+20:45:29.884 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'removeSemicolonContent' of type [boolean]

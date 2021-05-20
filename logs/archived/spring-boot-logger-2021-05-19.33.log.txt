@@ -1,0 +1,16 @@
+20:45:53.711 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'configurationProperties'
+20:45:53.713 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'Inlined Test Properties'
+20:45:53.713 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'systemProperties'
+20:45:53.713 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'systemEnvironment'
+20:45:53.713 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'random'
+20:45:53.713 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.mandatory-file-encoding' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:53.713 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.mandatory-file-encoding' in any property source
+20:45:53.726 [main] TRACE org.springframework.beans.BeanUtils - No property editor [org.springframework.boot.Banner$ModeEditor] found for type org.springframework.boot.Banner$Mode according to 'Editor' suffix convention
+20:45:53.728 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.beaninfo.ignore' in PropertySource 'configurationProperties'
+20:45:53.729 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.beaninfo.ignore' in PropertySource 'Inlined Test Properties'
+20:45:53.729 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.beaninfo.ignore' in PropertySource 'systemProperties'
+20:45:53.729 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.beaninfo.ignore' in PropertySource 'systemEnvironment'
+20:45:53.729 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.beaninfo.ignore' in PropertySource 'random'
+20:45:53.729 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.beaninfo.ignore' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:45:53.729 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.beaninfo.ignore' in any property source
+20:45:53.730 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.banner.image.location' in PropertySource 'configurationProperties'

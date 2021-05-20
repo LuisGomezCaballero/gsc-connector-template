@@ -1,0 +1,15 @@
+20:42:14.403 [main] TRACE org.springframework.beans.BeanUtils - No property editor [org.springframework.boot.logging.LogLevelEditor] found for type org.springframework.boot.logging.LogLevel according to 'Editor' suffix convention
+20:42:14.406 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'configurationProperties'
+20:42:14.406 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'Inlined Test Properties'
+20:42:14.406 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'systemProperties'
+20:42:14.407 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'systemEnvironment'
+20:42:14.407 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'random'
+20:42:14.407 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'logging.register-shutdown-hook' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:42:14.407 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'logging.register-shutdown-hook' in any property source
+20:42:14.408 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'configurationProperties'
+20:42:14.408 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'Inlined Test Properties'
+20:42:14.408 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'systemProperties'
+20:42:14.408 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'systemEnvironment'
+20:42:14.408 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'random'
+20:42:14.408 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.listener.classes' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:42:14.408 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'context.listener.classes' in any property source

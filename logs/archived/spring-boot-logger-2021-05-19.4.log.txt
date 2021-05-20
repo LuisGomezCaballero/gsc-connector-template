@@ -1,0 +1,128 @@
+20:42:14.558 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./config/]
+20:42:14.561 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.yaml
+20:42:14.562 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.yml
+20:42:14.562 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.xml
+20:42:14.562 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.properties
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./]
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.yaml
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.yml
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.xml
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.properties
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:classpath:/config/]
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.yaml
+20:42:14.563 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.yml
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.xml
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.properties
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:classpath:/]
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.yml
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.xml
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.properties
+20:42:14.564 [main] TRACE o.s.b.c.config.ConfigDataLoaders - Loading class path resource [application.yaml] using loader org.springframework.boot.context.config.StandardConfigDataLoader
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Imported 1 resource [class path resource [application.yaml]]
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processed imports for of 5 contributors
+20:42:14.564 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating config data activation context from initial contributions
+20:42:14.564 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Processing config data environment contributors with initial activation context
+20:42:14.564 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports for phase BEFORE_PROFILE_ACTIVATION. [ConfigDataActivationContext@5b40ceb cloudPlatform = [null], profiles = [null]]
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processed imports for of 0 contributors
+20:42:14.565 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Deducing profiles from current config data environment contributors
+20:42:14.565 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Processing config data environment contributors with profile activation context
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports for phase AFTER_PROFILE_ACTIVATION. [ConfigDataActivationContext@13c3c1e1 cloudPlatform = [null], profiles = [Profiles@1d8062d2 active = '[]', default = '[default]', accepted = '[default]']]
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./config/*/]
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.yaml
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.yml
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.xml
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.properties
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application-default.yaml
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application-default.yml
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application-default.xml
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application-default.properties
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:42:14.565 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./config/]
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.yaml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.yml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.xml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application.properties
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application-default.yaml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application-default.yml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application-default.xml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/application-default.properties
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./]
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.yaml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.yml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.xml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application.properties
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application-default.yaml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application-default.yml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application-default.xml
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./application-default.properties
+20:42:14.566 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:classpath:/config/]
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.yaml
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.yml
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.xml
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application.properties
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application-default.yaml
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application-default.yml
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application-default.xml
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/config/application-default.properties
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:42:14.567 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:classpath:/]
+20:42:14.568 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.yml
+20:42:14.568 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.xml
+20:42:14.568 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application.properties
+20:42:14.568 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application-default.yaml
+20:42:14.568 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application-default.yml
+20:42:14.568 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application-default.xml
+20:42:14.568 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource classpath:/application-default.properties
+20:42:14.568 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
+20:42:14.568 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processed imports for of 5 contributors
+20:42:14.568 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Applying config data environment contributions
+20:42:14.568 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding imported property source 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:42:14.568 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Setting default profiles: [default]
+20:42:14.568 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Setting active profiles: []
+20:42:14.569 [main] TRACE o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@38f116f6, started on Wed May 19 20:42:14 CEST 2021
+20:42:14.579 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@553f1d75]
+20:42:14.579 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@62fe6067]
+20:42:14.579 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'application' with implementation [org.springframework.web.context.support.ServletContextScope@56ace400]
+20:42:14.587 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:42:14.587 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:42:14.592 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+20:42:14.599 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+20:42:14.599 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+20:42:14.599 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' to allow for resolving potential circular references
+20:42:14.600 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+20:42:14.602 [main] TRACE o.s.c.i.s.SpringFactoriesLoader - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+20:42:14.602 [main] TRACE o.s.beans.CachedIntrospectionResults - Getting BeanInfo for class [org.springframework.context.annotation.ConfigurationClassPostProcessor]
+20:42:14.606 [main] TRACE o.s.beans.CachedIntrospectionResults - Caching PropertyDescriptors for class [org.springframework.context.annotation.ConfigurationClassPostProcessor]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'applicationStartup' of type [org.springframework.core.metrics.ApplicationStartup]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'beanNameGenerator' of type [org.springframework.beans.factory.support.BeanNameGenerator]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'class' of type [java.lang.Class]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'environment' of type [org.springframework.core.env.Environment]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'metadataReaderFactory' of type [org.springframework.core.type.classreading.MetadataReaderFactory]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'order' of type [int]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'problemReporter' of type [org.springframework.beans.factory.parsing.ProblemReporter]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+20:42:14.607 [main] TRACE o.s.beans.CachedIntrospectionResults - Found bean property 'sourceExtractor' of type [org.springframework.beans.factory.parsing.SourceExtractor]
+20:42:14.615 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:42:14.623 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+20:42:14.626 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved classpath location [net/atos/mcs/gscconnectortemplate/] to resources [URL [file:/C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/test-classes/net/atos/mcs/gscconnectortemplate/], URL [file:/C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/]]
+20:42:14.626 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate]
+20:42:14.626 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/test-classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:42:14.627 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\controller] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/test-classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:42:14.627 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate]
+20:42:14.627 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:42:14.628 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\configuration] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:42:14.628 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\controller] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:42:14.628 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\domain] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:42:14.629 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\exception] for files matching pattern [C:/Users/Luis/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/gsc-connector-template/target/classes/net/atos/mcs/gscconnectortemplate/**/*.class]
+20:42:14.630 [main] TRACE o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:net/atos/mcs/gscconnectortemplate/**/*.class] to resources [file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplicationTests.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\controller\TemplateControllerTest.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplication.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\configuration\SwaggerConfiguration.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\controller\TemplateController.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\domain\TemplateRequest.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\domain\TemplateResponse.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\exception\TemplateAdvice.class], file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\classes\net\atos\mcs\gscconnectortemplate\exception\TemplateException.class]]
+20:42:14.630 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplicationTests.class]
+20:42:14.630 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.boot.test.context.filter.TestTypeExcludeFilter'
+20:42:14.630 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\GscConnectorTemplateApplicationTests.class]
+20:42:14.630 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Scanning file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\controller\TemplateControllerTest.class]
+20:42:14.633 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - Ignored because not matching any filter: file [C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template\target\test-classes\net\atos\mcs\gscconnectortemplate\controller\TemplateControllerTest.class]

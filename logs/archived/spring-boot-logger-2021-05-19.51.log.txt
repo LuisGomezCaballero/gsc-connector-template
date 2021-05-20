@@ -1,0 +1,64 @@
+20:46:37.015 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'application.formatted-version' in PropertySource 'version' with value of type String
+20:46:37.016 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'application.formatted-version'
+20:46:37.016 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'ansi'
+20:46:37.016 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'application.title' in any property source
+20:46:37.016 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'application.title' in PropertySource 'title'
+20:46:37.017 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Found key 'application.title' in PropertySource 'title' with value of type String
+20:46:37.017 [main] TRACE o.s.util.PropertyPlaceholderHelper - Resolved placeholder 'application.title'
+20:46:37.041 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'configurationProperties'
+20:46:37.041 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'Inlined Test Properties'
+20:46:37.041 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'systemProperties'
+20:46:37.041 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'systemEnvironment'
+20:46:37.042 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'random'
+20:46:37.042 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'context.initializer.classes' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:37.042 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'context.initializer.classes' in any property source
+20:46:37.043 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'configurationProperties'
+20:46:37.043 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'Inlined Test Properties'
+20:46:37.043 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'systemProperties'
+20:46:37.043 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'systemEnvironment'
+20:46:37.043 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'random'
+20:46:37.043 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.application.name' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:37.043 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.application.name' in any property source
+20:46:37.057 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory - Registering scope 'restart' with implementation [org.springframework.boot.devtools.restart.RestartScopeInitializer$RestartScope@5dd91bca]
+20:46:37.060 [main] INFO  n.a.m.g.GscConnectorTemplateApplicationTests - Starting GscConnectorTemplateApplicationTests using Java 1.8.0_291 on XPS15-9500 with PID 11552 (started by Luis in C:\Users\Luis\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\gsc-connector-template)
+20:46:37.060 [main] DEBUG n.a.m.g.GscConnectorTemplateApplicationTests - Running with Spring Boot v2.4.5, Spring v5.3.6
+20:46:37.060 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'configurationProperties'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'test'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'Inlined Test Properties'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'systemProperties'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'systemEnvironment'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'random'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.active' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.profiles.active' in any property source
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'configurationProperties'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'test'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'Inlined Test Properties'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'systemProperties'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'systemEnvironment'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'random'
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.profiles.default' in PropertySource 'Config resource 'class path resource [application.yaml]' via location 'optional:classpath:/''
+20:46:37.062 [main] TRACE o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.profiles.default' in any property source
+20:46:37.062 [main] INFO  n.a.m.g.GscConnectorTemplateApplicationTests - No active profile set, falling back to default profiles: default
+20:46:37.063 [main] DEBUG o.s.boot.SpringApplication - Loading source class net.atos.mcs.gscconnectortemplate.GscConnectorTemplateApplication
+20:46:37.080 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+20:46:37.092 [main] TRACE o.s.b.env.EnvironmentPostProcessor - RandomValuePropertySource add to Environment
+20:46:37.092 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentPostProcessor - Post-processing environment to add config data
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Building config data environment contributors
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'configurationProperties'
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'Inlined Test Properties'
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'systemProperties'
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'systemEnvironment'
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Creating wrapped config data contributor for 'random'
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:file:./config/*/'
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:file:./config/'
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:file:./'
+20:46:37.092 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:classpath:/config/'
+20:46:37.093 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Adding initial config data import from location 'optional:classpath:/'
+20:46:37.093 [main] TRACE o.s.b.c.config.ConfigDataEnvironment - Processing initial config data environment contributors without activation context
+20:46:37.093 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports for phase BEFORE_PROFILE_ACTIVATION. no activation context
+20:46:37.093 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Processing imports [optional:file:./config/*/]
+20:46:37.093 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.yaml
+20:46:37.093 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.yml
+20:46:37.093 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.xml
+20:46:37.093 [main] TRACE o.s.b.c.c.ConfigDataLocationResolver - Skipping missing resource file:./config/*/application.properties
+20:46:37.093 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors - Nothing imported
