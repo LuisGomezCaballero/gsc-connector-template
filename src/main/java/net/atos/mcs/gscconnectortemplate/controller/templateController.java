@@ -20,10 +20,10 @@ import net.atos.mcs.gscconnectortemplate.exception.TemplateException;
  *
  */
 @RestController
-public class TemplateController {
+public class templateController {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(TemplateController.class);
-
+	private static final Logger LOGGER = LoggerFactory.getLogger(templateController.class);
+	
 	@GetMapping("/helloWorld")
 	public String helloWorld() {
         LOGGER.trace("A TRACE Message");
