@@ -22,27 +22,27 @@ import net.atos.mcs.gscconnectortemplate.exception.TemplateException;
 @RestController
 public class templateController {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(templateController.class);
+	private static final Logger logEnMinuscula = LoggerFactory.getLogger(templateController.class);
 	
 	@GetMapping("/helloWorld")
-	public String helloWorld() {
-        LOGGER.trace("A TRACE Message");
-        LOGGER.debug("A DEBUG Message");
-        LOGGER.info("An INFO Message");
-        LOGGER.warn("A WARN Message");
-        LOGGER.error("An ERROR Message");
+	public String HelloWorld() {
+        logEnMinuscula.trace("A TRACE Message" + " Suma de Strings");
+        logEnMinuscula.debug("A DEBUG Message");
+        logEnMinuscula.info("An INFO Message");
+        logEnMinuscula.warn("A WARN Message");
+        logEnMinuscula.error("An ERROR Message");
 		return "Hello World!";
 	}
 
 	@GetMapping("/exception")
-	public  String exception() {
-		LOGGER.error("exception");
+	public String exception() {
+		logEnMinuscula.error("exception");
 		throw new TemplateException();
 	}
 
 	@PostMapping("/myRequest")
-	public  TemplateResponse myRequest(@RequestBody TemplateRequest request) {
-		LOGGER.debug("The request is: {}", request);
+	private TemplateResponse myRequest(@RequestBody TemplateRequest request) {
+		logEnMinuscula.debug("The request is: {}", request);
 		TemplateResponse response = new TemplateResponse();
 
 		response.setMyString("Hello " + request.getMyInt() + "!");
@@ -51,9 +51,10 @@ public class templateController {
 	}
 
 	@GetMapping("/hello/{id}")
-	public  TemplateResponse one(@PathVariable Long id) {
-		LOGGER.debug("The parameter is: {}", id);
-		TemplateResponse response = new TemplateResponse();
+	public TemplateResponse one(@PathVariable Long id) {
+		logEnMinuscula.debug("The parameter is: {}", id);
+//		TemplateResponse response = new TemplateResponse();
+		TemplateResponse response = null;
 
 		response.setMyString("Hello " + id + "!");
 
