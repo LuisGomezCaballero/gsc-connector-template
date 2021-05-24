@@ -55,7 +55,7 @@ pipeline {
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
-          sh "'${mvnHome}/bin/mvn'  verify sonar:sonar -Dintegration-tests.skip=true -Dmaven.test.failure.ignore=true -Dsonar.host.url=http://172.17.0.5:9000"
+          sh "'${mvnHome}/bin/mvn'  verify sonar:sonar -Dintegration-tests.skip=true -Dmaven.test.failure.ignore=true -Dsonar.host.url=http://172.17.0.4:9000"
         }
       }
     }
