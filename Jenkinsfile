@@ -64,7 +64,7 @@ pipeline {
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
-          sh "'${mvnHome}/bin/mvn' spring-boot:run > dev/null 2>&1 &"
+          sh "'${mvnHome}/bin/mvn' spring-boot:run > /dev/null 2>&1"
         }
       }
     }
