@@ -1,4 +1,4 @@
-server:  port: 8081
+server:  port: 8082
 logging:
   level:
     root: tracespring:  main:    banner-mode: console  banner:    location: classpath:custom-banner.txt    
