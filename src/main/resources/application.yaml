@@ -1,4 +1,4 @@
 server:  port: 8082
 logging:
   level:
-    root: tracespring:  main:    banner-mode: console  banner:    location: classpath:custom-banner.txt    
+    root: trace    '[org.apache.tomcat]': INFO    '[org.apache.tomcat.util.net]': WARNspring:  main:    banner-mode: console  banner:    location: classpath:custom-banner.txt    
