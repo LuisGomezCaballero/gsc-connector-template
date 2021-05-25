@@ -3,6 +3,8 @@
  */
 package net.atos.mcs.gscconnectortemplate.controller;
 
+import java.util.Date;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,7 +33,7 @@ public class templateController {
         logEnMinuscula.info("An INFO Message");
         logEnMinuscula.warn("A WARN Message");
         logEnMinuscula.error("An ERROR Message");
-		return "Hello World!";
+		return "The time is: " + new Date();
 	}
 
 	@GetMapping("/exception")
