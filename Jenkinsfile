@@ -64,8 +64,10 @@ pipeline {
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
-          sh "pkill -f pipeline1"
-          sh "nohup '${mvnHome}/bin/mvn' spring-boot:run &"
+          //sh "pkill -f pipeline1"
+          //sh "nohup '${mvnHome}/bin/mvn' spring-boot:run &"
+          sh "pid=\$(lsof -i:8082 -t); kill -TERM \$pid || kill -KILL \$pid"
+          sh "nohup '${mvnHome}/bin/mvn' spring-boot:run -Dserver.port=8082 &"
         }
       }
     }
