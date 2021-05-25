@@ -64,7 +64,7 @@ pipeline {
       steps {
         script {
           def mvnHome = tool 'Maven 3.8.1'
-          sh "pkill -f template"
+          sh "pkill -f pipeline1"
           sh "nohup '${mvnHome}/bin/mvn' spring-boot:run &"
         }
       }
